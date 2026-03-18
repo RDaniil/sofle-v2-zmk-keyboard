@@ -16,6 +16,17 @@ if SHIELD_SOFLE_LEFT || SHIELD_SOFLE_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_SPLIT_BLE
+    default y
+
+config BT_MAX_CONN
+    default 5 if ZMK_SPLIT_ROLE_CENTRAL
+    default 1
+
+config BT_MAX_PAIRED
+    default 5 if ZMK_SPLIT_ROLE_CENTRAL
+    default 1
+
 if ZMK_DISPLAY
 
 config I2C
