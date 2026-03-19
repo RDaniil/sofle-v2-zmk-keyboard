@@ -248,5 +248,3 @@ include:
 | Батарея | Li-Po, разъём MX1.25 |
 
 ---
-
-*Сгенерировано для ZMK firmware, Zephyr 4.1, PandaKB Sofle RGB*
