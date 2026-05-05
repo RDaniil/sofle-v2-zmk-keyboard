@@ -4,7 +4,7 @@
 config ZMK_USB
     default y
 
-config CONFIG_ZMK_USB_HID
+config ZMK_USB_HID
     default y
 
 if SHIELD_SOFLE_LEFT
