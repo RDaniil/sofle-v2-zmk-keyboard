@@ -4,6 +4,9 @@
 config ZMK_USB
     default y
 
+config CONFIG_ZMK_USB_HID
+    default y
+
 if SHIELD_SOFLE_LEFT
 
 config ZMK_KEYBOARD_NAME
