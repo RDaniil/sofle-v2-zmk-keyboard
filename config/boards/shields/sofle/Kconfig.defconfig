@@ -1,8 +1,8 @@
 # Copyright (c) 2020 Ryan Cross
 # SPDX-License-Identifier: MIT
 
-config ZMK_USB
-    default y
+CONFIG_ZMK_USB=y
+CONFIG_ZMK_BLE=n
 
 if SHIELD_SOFLE_LEFT
 
