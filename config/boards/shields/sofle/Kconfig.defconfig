@@ -20,10 +20,10 @@ config ZMK_SPLIT
     default y
 
 config ZMK_BLE
-    default y
+    default n
 
 config ZMK_SPLIT_BLE
-    default y
+    default n
 
 if ZMK_DISPLAY
 
